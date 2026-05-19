@@ -1,0 +1,35 @@
+
+# ThreeFlightSimulator
+
+A primitive flight simulator running on web browser with ThreeJS made in 2 months
+
+The goal behind this project was to improve my shader programming skills and to get some basic knowledges with web langages.
+
+[Report of the project (FR)](documentation/CompteRendu.md)
+
+## Features
+
+- Web assembly for high performance generation algorithms
+- Infinite procedural landscape generation
+- Basic foliage system
+- Basic atmospheric scattering shader
+- Tree impostors
+
+## Live demo
+
+To run the simulator locally, see the Installation section below.
+
+
+## Pictures
+
+![cockpit](https://user-images.githubusercontent.com/24438631/110435648-8c859c80-80b3-11eb-935e-26e67884091e.png)*View from a quickly modeled 3D cockpit*
+
+![impostors](https://user-images.githubusercontent.com/24438631/110435644-8b546f80-80b3-11eb-95dd-1c5db0257e46.png)*Impostor rendering (every tree on this screen is a 2-polygone plane)*
+
+![Shadows](https://user-images.githubusercontent.com/24438631/110436644-c5724100-80b4-11eb-9b51-f0067786d554.png)*Experimentation with the threeJS's cascaded shadow module. (i didn't achieved to a good result, and the efforts required to improve the rendering was too much for a side project)*
+
+![atmospheric_scattering](https://user-images.githubusercontent.com/24438631/150693735-efe73c3d-397a-4479-b0ab-e43f0df9069f.png)
+> Atmospheric scattering
+
+![quadtree](https://user-images.githubusercontent.com/24438631/150693744-59b0760e-b12d-46cb-a446-142ed685eafe.png)
+> Quadtree

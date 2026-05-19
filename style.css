@@ -1,0 +1,91 @@
+
+body {
+    color: white;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    overscroll-behavior: none;
+}
+
+div#game {
+    position:absolute;
+    display: flex;
+    transition: all 200ms;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+#test {
+    transition: all 200ms;
+}
+
+.blurred {
+    transition: all 200ms;
+    filter: blur(8px) brightness(50%);
+    -webkit-filter: blur(8px)  brightness(50%);
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+}
+
+div#game > img {
+    width: 100%;
+    height: 100%;
+}
+
+#background-image {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+div#interface-container {
+    position:absolute;
+    display: flex;
+}
+
+div#interfaceBackground {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+div#menuBar {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(1, 1, 1, 0.4);
+    height: 100%;
+}
+div#menuBar > h1 {
+    margin: 10% 30px 10%;
+}
+
+div#menubarContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuButton {
+    display: flex;
+    color: white;
+    margin: 10px;
+    height: 70px;
+    border-style: groove;
+    background-color: transparent;
+    transition: 100ms;
+    border-color: rgba(1, 1, 0, 0);
+    border-radius: 20px;
+    transform: scale(0.95);
+    align-items: center;
+}
+
+.menuButton:hover {
+    border-color: sandybrown;
+    transition: 100ms;
+    transform: scale(1);
+}
