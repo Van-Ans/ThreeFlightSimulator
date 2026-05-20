@@ -3,4 +3,7 @@
 src/wasm/build
 .env
 node_modules/
-package-lock.json
+package-lock.jsonnode_modules/
+dist/
+build/
+.cache/
